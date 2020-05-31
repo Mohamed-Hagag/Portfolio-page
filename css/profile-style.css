@@ -1,0 +1,82 @@
+.body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-brand
+{
+    font-family: Architects Daughter;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+header
+{
+    background-image: url(./../images/background1.jpeg);
+    height: 620px;
+    background-size: cover;
+    position: relative;
+}
+header .container p
+{
+    font-weight: 500;
+}
+header .social-icons
+{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    padding-left: 20px;
+}
+.social-icons a
+{
+    padding-left: 10px;
+}
+.title
+{
+    position: relative;
+
+}
+.title h2
+{
+    color: #f1f1f1;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.title h3
+{
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: 5px;
+
+}
+.project
+{
+    position: relative;
+    overflow: hidden;
+}
+.project-info
+{
+   background-color:rgba(0, 0, 0, 0.5);
+   height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition-duration: 1s;
+    color: #fff;
+}
+.project:hover .project-info
+{
+top: 0;}
+.project-info h3
+{
+    background-color: gray ;
+}
+#projects
+{
+    background-color: aliceblue;
+
+}
+#contact
+{
+    background-color: beige;
+}
