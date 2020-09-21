@@ -52,16 +52,22 @@ header .social-icons {
 .title {
   position: relative;
 }
+#about {
+  background-image: url(../images/light_dot.jpg);
+}
 .title h2 {
   color: #f1f1f1;
   font-size: 3rem;
   font-weight: 800;
 }
+.img-me {
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+}
 .title h3 {
   position: absolute;
   font-size: 1.8rem;
   font-weight: 800;
-  letter-spacing: 5px;
+  letter-spacing: 8px;
 }
 .project {
   position: relative;

@@ -10,8 +10,10 @@ $(document).ready(() => {
       $("nav").removeClass("bg-black");
       $("#btn-up").fadeOut(200);
     }
-  });
-
+  }); 
+  const elem = ()=>{
+             console.log();}
+  
   $("#btn-up").click(() => {
     $("html,body").animate({ scrollTop: "0" }, 1000);
   });
